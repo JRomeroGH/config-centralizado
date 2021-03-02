@@ -23,6 +23,6 @@ spring:
     
 # ESPECIFICACION DEL KAFKA SERVER  
   kafka:
-    bootstrap-servers: localhost:9092
+    bootstrap-servers: kafka:9092
     consumer:
       group-id: myGroup
