@@ -8,7 +8,7 @@ logging:
         web:
           servlet:
             DispatcherServlet: DEBUG
-            
+
 spring:
   datasource:
     url: jdbc:postgresql://192.168.1.132:5433/GOTALENT
@@ -26,6 +26,6 @@ spring:
          non_contextual_creational: true
          
   kafka:
-    bootstrap-servers: localhot:9092
+    bootstrap-servers: kafka:9092
     consumer:
       group-id: myGroup 
