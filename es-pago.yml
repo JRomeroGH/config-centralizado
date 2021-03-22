@@ -4,7 +4,7 @@ server:
 # CONECCION A BASE DE DATOS
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/gotalent
+    url: jdbc:postgresql://localhost:5433/gotalent
     username: postgres
     password: Admin040617
     driver-class-name: org.postgresql.Driver
