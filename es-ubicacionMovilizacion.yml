@@ -1,5 +1,5 @@
 server:
-  port: 8071
+  port: 8182
   
 logging:
   level:
@@ -24,8 +24,4 @@ spring:
       jdbc:
         lob:
          non_contextual_creational: true
-         
-  kafka:
-    bootstrap-servers: kafka:9093
-    consumer:
-      group-id: myGroup 
+
