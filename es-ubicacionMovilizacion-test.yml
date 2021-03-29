@@ -1,0 +1,26 @@
+server:
+  port: 8182
+  
+logging:
+  level:
+    org:
+      springframework:
+        web:
+          servlet:
+            DispatcherServlet: DEBUG
+
+spring:
+  datasource:
+    url: jdbc:postgresql://192.168.1.132:5433/TEST_GOTALENT
+    username: postgres
+    password: Admin040617
+    driver-class-name: org.postgresql.Driver
+    
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      jdbc:
+        lob:
+         non_contextual_creational: true
