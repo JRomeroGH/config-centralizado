@@ -1,18 +1,5 @@
 server:
   port: 8184
   
-spring:
-  datasource:
-    url: jdbc:postgresql://localhost:5433/GOTALENT
-    username: postgres
-    password: Admin040617
-    driver-class-name: org.postgresql.Driver
-    
-  jpa:
-    hibernate:
-      ddl-auto: update
-    show-sql: true
-    properties:
-      jdbc:
-        lob:
-         non_contextual_creational: true
+uri:  
+  vacaciones-externas: http://api.dev.nominaexterna.rgt.com/
