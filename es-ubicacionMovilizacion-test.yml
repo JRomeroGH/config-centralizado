@@ -11,7 +11,7 @@ logging:
 
 spring:
   datasource:
-    url: jdbc:postgresql://192.168.1.132:5433/TEST_GOTALENT
+    url: jdbc:postgresql://localhost:5433/TEST_GOTALENT
     username: postgres
     password: Admin040617
     driver-class-name: org.postgresql.Driver
