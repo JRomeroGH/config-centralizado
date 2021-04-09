@@ -9,4 +9,4 @@ uri:
   valoresConfigurables: "http://rgt-es-valoresconfigurables:8051"
   plantillaNotificacion: "http://rgt-es-plantillanotificacion:8079"
   solicitudHorasExtras: "http://rgt-es-solicitudjustificacionatraso:8059"
-  enviarCorreo: "http://rgt-us-enviarCorreo:8083"
+  us-enviarCorreo: "http://rgt-us-enviarCorreo:8083"
