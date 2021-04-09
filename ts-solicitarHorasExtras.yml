@@ -1,0 +1,5 @@
+server:
+  port: 8184
+  
+uri:  
+  vacaciones-externas: http://api.dev.nominaexterna.rgt.com/
