@@ -1,0 +1,11 @@
+server:
+  port: 8209
+  
+# SERVICIOS A CONSUMIR
+uri:
+  empleado: "http://rgt-es-empleado:8072"
+  solicitudAnticipo: "http://rgt-es-solicitudanticipo:8057"
+  solicitudLegado: "http://rgt-us-solicitudlegado:8085"
+  valoresConfigurables: "http://rgt-es-valoresconfigurables:8051"
+  plantillaNotificacion: "http://rgt-es-plantillanotificacion:8079"
+  enviarCorreo: "http://rgt-us-enviarcorreo:8083"
