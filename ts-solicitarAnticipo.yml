@@ -4,7 +4,7 @@ server:
 # SERVICIOS A CONSUMIR
 uri:
   empleado: "http://api.dev.empleado.rgt.com"
-  solicitudAnticipo: "http://rgt-es-solicitudanticipo:8057"
+  solicitudAnticipo: "http://api.dev.solicitaranticipo.rgt.com"
   solicitudLegado: "http://rgt-us-solicitudlegado:8085"
   valoresConfigurables: "http://api.dev.valoresconfigurables.rgt.com"
   plantillaNotificacion: "http://api.dev.plantillanotificacion.rgt.com"
