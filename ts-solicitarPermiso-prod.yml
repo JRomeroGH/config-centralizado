@@ -1,0 +1,19 @@
+server:
+  port: 8203
+
+# OpenAPI 
+springdoc:
+  packages-to-scan: com.righttek.ts.solicitarpermiso.controller
+  
+  
+# SERVICIOS A CONSUMIR
+uri:
+  empleado: "http://api.dev.empleado.rgt.com"
+  solicitud: "http://api.dev.solicitud.rgt.com"
+  valoresConfigurables: "http://api.dev.valoresconfigurables.rgt.com"
+  plantillaNotificacion: "http://api.dev.plantillanotificacion.rgt.com"
+  solicitudPermiso: "http://api.dev.solicitudpermiso.rgt.com"
+  permiso: "http://api.dev.permiso.rgt.com"
+  us-enviarcorreo: "http://rgt-us-enviarcorreo:8083"
+  cargaArchivo: "http://api.dev.archivo.rgt.com"
+  solicitudLegado: "http://api.dev.solicitudlegado.rgt.com"
