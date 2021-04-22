@@ -1,0 +1,12 @@
+server:
+  port: 8213
+  
+# SERVICIOS A CONSUMIR
+uri:
+  plantillaNotificacion: "http://api.dev.plantillanotificacion.rgt.com"
+  parametros: "http://api.dev.valoresconfigurables.rgt.com"
+  empleadolegado: "http://api.dev.empleado.rgt.com"
+  sreembolso: "http://api.dev.solicitudreembolso.rgt.com"
+#  srlegado: "http://localhost:8062"
+  ecorreo: "http://rgt-us-enviarCorreo:8083"
+  archivo: "http://api.dev.archivo.rgt.com"
