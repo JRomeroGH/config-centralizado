@@ -18,4 +18,9 @@ spring:
         lob:
           non_contextual_creation: true
 
+# SERVICIOS A CONSUMIR
+uri:
+  nomina-externa: "http://localhost:8082"
+  usuario: "http://localhost:8055"
+
 
