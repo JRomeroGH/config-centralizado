@@ -6,7 +6,7 @@ spring:
   datasource:
     url: jdbc:postgresql://localhost:5433/TEST_GOTALENT
     username: postgres
-    password: root
+    password: Admin040617
     driver-class-name: org.postgresql.Driver
 # Hibernate ddl auto (create, create-drop, validate, update)
   jpa:
