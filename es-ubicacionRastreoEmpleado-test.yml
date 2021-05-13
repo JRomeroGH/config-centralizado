@@ -1,26 +1,19 @@
 server:
-  port: 8011
-  
-logging:
-  level:
-    org:
-      springframework:
-        web:
-          servlet:
-            DispatcherServlet: DEBUG
+  port: 8008
 
+# CONECCION A BASE DE DATOS
 spring:
   datasource:
     url: jdbc:postgresql://localhost:5433/TEST_GOTALENT
     username: postgres
     password: Admin040617
     driver-class-name: org.postgresql.Driver
-    
+# Hibernate ddl auto (create, create-drop, validate, update)
   jpa:
     hibernate:
       ddl-auto: update
-    show-sql: true
+    show-sql: false
     properties:
       jdbc:
         lob:
-         non_contextual_creational: true
+          non_contextual_creation: true
